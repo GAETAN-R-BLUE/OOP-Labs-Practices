@@ -1,4 +1,4 @@
-package Employee;
+package MyEmployees;
 
 public class Employee {
     // The following are the properties of the employee class
