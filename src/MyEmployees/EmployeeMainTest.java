@@ -1,6 +1,4 @@
-// This program creates Employee objects, tests their methods, and prints the results.
-
-import MyEmployees.Employee; // Import the Employee class from the MyEmployees package
+package MyEmployees;// This program creates Employee objects, tests their methods, and prints the results.
 
 public class EmployeeMainTest { // Main class containing the entry point of the program
 

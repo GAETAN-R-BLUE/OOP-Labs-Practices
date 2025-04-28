@@ -84,7 +84,7 @@ public class Employee {
     }
 
     // Setter for salary
-    public void setSalary() {
+    public void setSalary(double salary) {
         if (salary < 0) {
             System.out.println("The salary should be a positive number");
         }
@@ -166,9 +166,10 @@ public class Employee {
 
 
     public String toString() {
-        return "Employee Details:\n" +
+        return "\n====Employee Details:=====\n" +
                 "ID: " + employeeID + "\n" +
                 "Name: " + firstName + " " + lastName + "\n" +
+                "Age: " + age + "\n" +
                 "Email: " + email + "\n" +
                 "Department: " + department + "\n" +
                 "Salary: $" + salary;

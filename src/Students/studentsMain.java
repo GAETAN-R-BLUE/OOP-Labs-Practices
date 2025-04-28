@@ -1,9 +1,8 @@
-// This program creates an ArrayList of Student objects,
+package Students;// This program creates an ArrayList of Student objects,
 // sorts them by their grade in descending order,
 // prints all students, prints the top and bottom student, 
 // and finally prints the average and total of all students' grades.
 
-import Students.Student; // Import the Student class from the Students package
 import java.util.ArrayList; // Import ArrayList to use a resizable list
 import java.util.Collections; // Import Collections for sorting the list
 
