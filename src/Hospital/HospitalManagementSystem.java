@@ -13,9 +13,10 @@ public class HospitalManagementSystem {
             System.out.println("\n==== Employee Management System ====" + "\n \n" +
                     "1. Add New Patient \n" +
                     "2. View All Patient \n" +
-                    "3. Update Patient Info \n" +
-                    "4. Discharged Patient \n" +
+                    "3. Delete Patient Info \n" +
+                    "4. Discharge Patient \n" +
                     "5. Search Patient \n" +
+                    "6. Show Discharged Patient \n" +
                     "6. Exit");
             int choice = userInput.nextInt();
             userInput.nextLine();
@@ -50,7 +51,7 @@ public class HospitalManagementSystem {
                    break;
                 }
                 case 2:{
-                    patients.printPatient();
+                    patients.printPatients();
                     break;
                 }
                 case 3:{

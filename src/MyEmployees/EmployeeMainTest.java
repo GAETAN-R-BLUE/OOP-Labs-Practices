@@ -5,11 +5,11 @@ public class EmployeeMainTest { // Main class containing the entry point of the 
     public static void main(String[] args) {
         // Step 1: Create the first Employee object using the full constructor
         Employee employee1 = new Employee(361361, "Rodrigue", "Gaetan",
-                35, "gaetanrodrigue98@gmail.com", "Engineering", 250458.25);
+                35, "gaetanrodrigue9@gmail.com", "Engineering", 250458.25);
 
         // Step 2: Create the second Employee object with different data
         Employee employee2 = new Employee(361361, "Bro", "Book",
-                26, "gaetanrodrigue98@gmail.com", "Engineering", 75268.152);
+                26, "gaetanrodrigue9@gmail.com", "Engineering", 75268.152);
 
         // Step 3: Create the third Employee object by copying employee2 using the copy constructor
         Employee employee3 = new Employee(employee2);
