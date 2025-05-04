@@ -40,6 +40,7 @@ public class Patient {
         this.illness = illness;
         this.admissionDate = admissionDate;
         this.age = age;
+        this.discharged = false;
     }
 
     // Constructor without doctor info
@@ -50,6 +51,7 @@ public class Patient {
         this.illness = illness;
         this.admissionDate = admissionDate;
         this.age = age;
+        this.discharged = false;
     }
 
     // Constructor with only basic info (no ID, no dates)
