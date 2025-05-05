@@ -162,14 +162,14 @@ public class Patient {
     // Returns a nicely formatted string representation of the patient object
     @Override
     public String toString() {
-        return "\n" + "====***patient***====\n" +
-                "patientID: \n" + patientID +
-                " firstName: " + firstName + "\n" +
-                " lastName: " + lastName + "\n" +
-                " age: " + age +
-                " doctor: " + doctor + "\n" +
-                " illness: " + illness + "\n" +
-                " admissionDate: " + admissionDate + "\n";
+        return
+                " Patient ID: " + patientID + "\n" +
+                " First Name: " + firstName + "\n" +
+                " Last Name: " + lastName + "\n" +
+                " Age: " + age + "\n" +
+                " Doctor: " + doctor + "\n" +
+                " Illness: " + illness + "\n" +
+                " AdmissionDate: " + admissionDate + "\n";
     }
     public void printPatient (){
         System.out.println(this);

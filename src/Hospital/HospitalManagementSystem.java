@@ -22,7 +22,10 @@ public class HospitalManagementSystem {
             userInput.nextLine();
             switch (choice){
                 case 1:{
-                    Credentials.getCredential();
+                    Patient newpatient = Credentials.getCredential();
+
+                    patients.addPatient(newpatient);
+
                 }
                 case 2:{
                     patients.printPatients();

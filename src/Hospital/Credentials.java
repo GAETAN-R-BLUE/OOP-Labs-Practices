@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Credentials {
 
-    public static PatientList getCredential (){
+    public static Patient getCredential (){
 
         Scanner userInput = new Scanner(System.in);
         System.out.println("Enter firstName");
@@ -29,10 +29,8 @@ public class Credentials {
         System.out.println("Enter the doctor's name");
         String doctor = userInput.nextLine();
 
-        PatientList myPatient = new PatientList();
-
         Patient newpatient = new Patient(lastName,firstName,doctor,patientID,illness,admissionDate, age);
-        myPatient.addPatient(newpatient);
-        return myPatient;
+        return newpatient;
+
     }
 }

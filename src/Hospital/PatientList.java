@@ -10,7 +10,9 @@ public class PatientList extends  ArrayList <Patient> {
     }
 
     //  Method: Prints all patients in the list
+
     public void printPatients() {
+        System.out.println("=== PATIENT LIST ===");
         for (int i = 0; i < this.size(); i++) {
             System.out.println(this.get(i));
             // Each Patient's toString() method is automatically called
