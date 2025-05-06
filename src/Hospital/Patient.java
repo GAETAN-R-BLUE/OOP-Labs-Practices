@@ -15,7 +15,7 @@ public class Patient {
     private String doctor;
     private String illness;
     private String admissionDate;
-    private boolean discharged;
+    private boolean discharged = false;
 
     // === Constructors ===
 
@@ -69,6 +69,7 @@ public class Patient {
         this.patientID = patientID;
     }
 
+
     // Constructor with only patientID
     public Patient(int patientID) {
         this.patientID = patientID;
@@ -80,6 +81,10 @@ public class Patient {
     }
 
     // === Getter and Setter Methods ===
+
+    public Patient(boolean discharged) {
+        this.discharged = discharged;
+    }
 
     public String getAdmissionDate() {
         return admissionDate;

@@ -18,8 +18,8 @@ public class PatientList extends  ArrayList <Patient> {
             // Each Patient's toString() method is automatically called
         }
     }
-    public Patient findPatientByID (PatientList patients, int ID){
-        for (Patient patient : patients ){
+    public Patient findPatientByID (int ID){
+        for (Patient patient : this ){
             if (ID == patient.getPatientID()){
                 return patient;
             }
@@ -28,12 +28,13 @@ public class PatientList extends  ArrayList <Patient> {
         return null;
     }
 
-    public void  dischargePatient (){
-        System.out.println("Patient discharged");
+    public void  deletePatient (int ID){
+        for (int i = 0; i < this.size(); i++) {
+        if (this.get(i).getPatientID() == ID) {
+            this.remove(i);
+            break;
+        }
     }
-
-    public void  deletePatient (){
-        System.out.println("Patient Deleted");
     }
 
 }

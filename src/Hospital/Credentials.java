@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Credentials {
 
-    public static Patient getCredential (){
+    public static Patient getPatientCredential(){
 
         Scanner userInput = new Scanner(System.in);
         System.out.println("Enter firstName");
