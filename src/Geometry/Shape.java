@@ -7,6 +7,10 @@ public class Shape {
         this.name = name;
         this.color = color;
     }
+    public Shape(){
+        this.name  = "unknown";
+        this.color = "unknown";
+    }
 
     public String getName() {
         return name;
@@ -23,12 +27,19 @@ public class Shape {
     public void setColor(String color) {
         this.color = color;
     }
+    public double area (){
+        return 0.0;
+    }
+
+    public double perimeter (){
+        return 0.0;
+    }
 
     @Override
     public String toString() {
-        return "Shape{" +
-                "name='" + name + '\'' +
-                ", color='" + color + '\'' +
-                '}';
+        return "Shape: " + "\n" +
+                "name: " + name + "\n" +
+                "color:" + color;
     }
+
 }
