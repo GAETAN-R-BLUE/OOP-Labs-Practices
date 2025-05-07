@@ -37,8 +37,7 @@ public class Shape {
 
     @Override
     public String toString() {
-        return "Shape: " + "\n" +
-                "name: " + name + "\n" +
+        return "\nname: " + name + "\n" +
                 "color:" + color;
     }
 

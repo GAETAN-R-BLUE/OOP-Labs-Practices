@@ -5,11 +5,11 @@ public class Triangle extends Shape {
     private double side2;
     private double side3;
 
-    public Triangle(String name, String color, double side3, double side2, double side1) {
+    public Triangle(String name, String color, double side1, double side2, double side3) {
         super(name, color);
-        this.side3 = side3;
+        this.side3 = side1;
         this.side2 = side2;
-        this.side1 = side1;
+        this.side1 = side3;
     }
 
     public double getSide3() {
