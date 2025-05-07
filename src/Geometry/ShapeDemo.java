@@ -46,6 +46,7 @@ public class ShapeDemo {
                   break;
                 }
                 case 4:{
+                    System.out.println("=== Shapes in memory ===");
 
                   break;
                 }
