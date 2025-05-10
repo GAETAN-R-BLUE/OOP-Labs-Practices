@@ -11,7 +11,10 @@ import java.util.Scanner;
 
 public class LibraryManagement {
     public static void main(String[] args) {
+        //Create a scanner object to read the user input
         Scanner userInput = new Scanner(System.in);
+
+        //Create an arrayList to store my objects
         ArrayList<Book> books = new ArrayList<>();
 
         while (true) {
