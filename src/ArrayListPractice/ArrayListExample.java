@@ -18,8 +18,8 @@ public class ArrayListExample {
                         "Press 1 to add a task, " +
                                 "\n2 to view all the tasks " +
                                 "\n3 to change status of tasks " +
-                                "\n4 to delete a task " +
-                                "\nAny other key to exit");
+                                "\n4 to delete a task: " +
+                                "\nAny other key to exit:");
 
                 // Read the user's choice
                 String userAction = scanner.nextLine();
