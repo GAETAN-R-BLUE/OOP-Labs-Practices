@@ -38,7 +38,7 @@ public class ShapeDemo {
                         String color = userInput.nextLine();
                         System.out.println("Enter the length");
                         double length = userInput.nextDouble();
-                        System.out.println("Enter the width");
+                        System.out.println("Enter the width:");
                         double width = userInput.nextDouble();
 
                         Rectangle newRectangle = new Rectangle(name, color, length, width);
