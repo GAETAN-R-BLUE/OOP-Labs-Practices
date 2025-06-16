@@ -77,7 +77,7 @@ public class ShapeDemo {
                 }
 
             } catch (InputMismatchException e) {
-                System.out.println("Invalid input. Please enter a valid integer.");
+                System.out.println("Invalid input: Please enter Try again.");
                 userInput.nextLine();
 
             }
