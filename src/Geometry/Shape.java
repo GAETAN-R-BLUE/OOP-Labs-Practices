@@ -1,3 +1,7 @@
+/* *******************************************************
+ * The following  is a class dedicated for all kind of
+ * geometry to calculate some parameters such as area, perimeter
+ * **************************************************************/
 package Geometry;
 
 public class Shape {
@@ -40,5 +44,4 @@ public class Shape {
         return "\nname: " + name + "\n" +
                 "color:" + color;
     }
-
 }
