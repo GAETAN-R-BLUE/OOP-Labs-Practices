@@ -1,4 +1,4 @@
-/* *******************************************************
+/* ***************************************************************
  * The following  is a class dedicated for all kind of
  * geometry to calculate some parameters such as area, perimeter
  * **************************************************************/
