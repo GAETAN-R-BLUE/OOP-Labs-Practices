@@ -18,7 +18,6 @@ public class LibraryManagement {
         ArrayList<Book> books = new ArrayList<>();
 
         while (true) {
-
             //Try-catch to handle exceptions
             try {
                 System.out.println("\n 1. Add book \n " +
@@ -95,7 +94,6 @@ public class LibraryManagement {
                 }
             }
             //The following is the catch statement in case an invalid entry is entered by the user
-
             catch (InputMismatchException e) {
                 System.out.println("Invalid input: Please enter a valid integer.");
                 userInput.nextLine();
