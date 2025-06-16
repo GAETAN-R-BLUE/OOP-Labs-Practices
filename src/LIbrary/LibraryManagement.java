@@ -39,7 +39,7 @@ public class LibraryManagement {
                         String title = userInput.nextLine();
                         System.out.println("Enter the author's name");
                         String author = userInput.nextLine();
-                        System.out.println("Enter the year");
+                        System.out.println("Enter the year ");
                         int year = userInput.nextInt();
                         Book newbook = new Book(title, author, year, true);
                         books.add(newbook);
@@ -97,7 +97,7 @@ public class LibraryManagement {
             //The following is the catch statement in case an invalid entry is entered by the user
 
             catch (InputMismatchException e) {
-                System.out.println("Invalid input. Please enter a valid integer.");
+                System.out.println("Invalid input: Please enter a valid integer.");
                 userInput.nextLine();
             }
         }
