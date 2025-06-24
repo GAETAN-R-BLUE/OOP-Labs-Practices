@@ -68,20 +68,20 @@ public class ArrayListExample {
                             todoList.get(chgIdx).setStatus(Task.COMPLETED);
                         }
                     }
-                    System.out.println("The task has been changed in the list");
+                    System.out.println(" The task has been changed in the list");
                 }
                 // Option 4: Delete a task
                 else if (userAction.equals("4")) {
                     // Prompt the user to enter the index of the task to delete
-                    System.out.println("Enter the index of the status you want to delete ");
+                    System.out.println(" Enter the index of the status you want to delete ");
                     int rmvIdx = Integer.parseInt(scanner.nextLine());
 
                     // Check if the index is valid
                     if (rmvIdx > (todoList.size() - 1)) {
-                        System.out.println("There is no such index position in the list");
+                        System.out.println(" There is no such index position in the list");
                     } else {
                         todoList.remove(rmvIdx);
-                        System.out.println("The task has been removed from the list");
+                        System.out.println(" The task has been removed from the list");
                     }
                 }
                 // Exit the program if the user enters any other key

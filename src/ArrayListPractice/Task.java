@@ -4,7 +4,7 @@ public class Task {
     public static int HIGH = 3;
     public static int MEDIUM = 2;
     public static int LOW = 1;
-    public static String COMPLETED = "Completed";
+    public static String COMPLETED = " Completed ";
     public static String IN_PROGRESS = "In Progress";
     public static String NEW = "New";
     private String taskName;
